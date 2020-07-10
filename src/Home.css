@@ -1,0 +1,27 @@
+
+/* .home {
+  background-image: url(./Coffee/background11-1920x1269.jpg);
+  width: 100%;
+  height: 700px;
+} */
+body, html {
+  height: 100%;
+  }
+  .home {
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+padding: 200px 0 0 0;
+  }
+  button {
+    padding: 10px 20px;
+    background: #df1f56;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+  }
+  

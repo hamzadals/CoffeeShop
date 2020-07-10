@@ -1,0 +1,41 @@
+* {
+ margin: 0;
+ padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  width: 95%;
+  height: 70px;
+  margin: o auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav > a {
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 40px 0;
+  color: grey;
+}
+.nav > a:nth-child(1) {
+  /* align-self: flex-start; */
+  position: absolute;
+  left: 10px;
+  top: 0px;
+}
+
+.nav > a > img {
+  width: 80px;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+}
+.nav > a > button {
+  padding: 10px 20px;
+  background: #df1f56;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 15px;
+  border: none;
+}
+
